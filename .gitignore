@@ -1,0 +1,14 @@
+# Ignorar arquivos de compilação
+*.o
+*.out
+*.exe
+a.out
+
+# Ignorar pastas de build
+/build/
+bin/
+
+# Ignorar arquivos temporários de editor (se usar editores como VSCode, vim, etc.)
+.vscode/
+*.swp
+
