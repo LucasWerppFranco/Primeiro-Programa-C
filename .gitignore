@@ -1,14 +1,23 @@
-# Ignorar arquivos de compilação
+# Arquivos de compilação
 *.o
 *.out
+*.a
+*.so
 *.exe
-a.out
 
-# Ignorar pastas de build
+# Diretórios de build
 /build/
 bin/
+obj/
 
-# Ignorar arquivos temporários de editor (se usar editores como VSCode, vim, etc.)
-.vscode/
+# Arquivos temporários
+*.log
+*.tmp
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup de editores
+*~
 *.swp
-
